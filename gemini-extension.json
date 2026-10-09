@@ -1,0 +1,11 @@
+{
+  "name": "boardmark",
+  "version": "1.0.0",
+  "description": "BoardMark issue board for Gemini CLI: find, create and move issues, run sprints, comment and keep project docs. OAuth sign-in.",
+  "mcpServers": {
+    "boardmark": {
+      "httpUrl": "https://mcp.boardmark.ai/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
