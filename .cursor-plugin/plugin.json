@@ -1,0 +1,11 @@
+{
+  "name": "boardmark",
+  "description": "BoardMark issue board in Cursor: find, create and move issues, run sprints, comment and keep project docs. OAuth sign-in, your own permissions.",
+  "version": "1.0.0",
+  "author": { "name": "I C Develop Co., Ltd", "email": "support@boardmark.ai", "url": "https://www.boardmark.ai" },
+  "homepage": "https://www.boardmark.ai/mcp",
+  "repository": "https://github.com/i-c-develop/boardmark",
+  "license": "MIT",
+  "keywords": ["project-management", "issue-tracking", "scrum", "kanban", "sprints", "mcp"],
+  "logo": "assets/logo.png"
+}
