@@ -22,6 +22,16 @@ Install **BoardMark** from the Cursor Marketplace, or add this to `~/.cursor/mcp
 
 Cursor offers the OAuth sign-in when you first use a BoardMark tool.
 
+## Cline
+
+Create a personal access token at https://app.boardmark.ai/agents, then add to Cline's MCP settings:
+
+```json
+{"mcpServers":{"boardmark":{"type":"streamableHttp","url":"https://mcp.boardmark.ai/mcp","headers":{"Authorization":"Bearer <token>"}}}}
+```
+
+Step by step for agents: [llms-install.md](llms-install.md).
+
 ## Other clients
 
 Claude, ChatGPT, Codex, VS Code, Windsurf, Zed, Cline and more: see the step-by-step guide at https://mcp.boardmark.ai/connect.md.
